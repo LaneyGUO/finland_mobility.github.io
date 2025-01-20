@@ -6,8 +6,8 @@
     }).addTo(map);
 
     const urls = {
-        geojson: '../data/geojson_file.geojson', // Replace with your GeoJSON path
-        deviation: '../data/data_cleaned.json', // Replace with your deviation data path
+        geojson: 'https://github.com/LaneyGUO/finland_mobility.github.io/blob/main/data/geojson_file.geojson', // Replace with your GeoJSON path
+        deviation: 'https://raw.githubusercontent.com/LaneyGUO/finland_mobility.github.io/refs/heads/main/data/data_cleaned.json', // Replace with your deviation data path
     };
 
     let geojsonLayer;
